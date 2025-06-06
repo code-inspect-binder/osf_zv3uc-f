@@ -1,0 +1,119 @@
+﻿VAR;LABEL;TYPE;INPUT;QUESTION
+CASE;Interview-Nummer (fortlaufend);METRIC;SYSTEM;
+SERIAL;Seriennummer (sofern verwendet);TEXT;SYSTEM;
+REF;Referenz (sofern im Link angegeben);TEXT;SYSTEM;
+QUESTNNR;Fragebogen, der im Interview verwendet wurde;TEXT;SYSTEM;
+MODE;Interview-Modus;TEXT;SYSTEM;
+STARTED;Zeitpunkt zu dem das Interview begonnen hat;TIME;SYSTEM;
+DO01_01;DO: pre-registered studies/analyses;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_03;DO: shared data publicly;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_04;DO: shared code/protocols publicly;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_05;DO: published in open access outlets (journals or monographs);ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_06;DO: published pre-prints;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_07;DO: did an open peer review;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_08;DO: used open source software;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_10;DO: published a (direct) replication of a study;ORDINAL;SCALE;How frequently have you done any of the following...
+DO01_09;DO: other;ORDINAL;SCALE;How frequently have you done any of the following...
+DO02_01;Do_other: Other open science practice(s);TEXT;OPEN;
+MO01_01;Wish: pre-registering your studies/analyses;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_03;Wish: sharing data;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_04;Wish: sharing code/protocols;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_05;Wish: open access publishing;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_06;Wish: publishing pre-prints;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_07;Wish: doing open peer review;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_08;Wish: using open source software;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_09;Wish: publishing a (direct) replication of a study;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO01_10;Wish: other;ORDINAL;SCALE;How willing are you to introduce the following open science practices to your research in the future?
+MO02_01;Do_other: Other open science practice(s);TEXT;OPEN;
+AT01_01;attitude: [Keine Beschreibung] 01;ORDINAL;SCALE;"In general, how do you feel about the open science movement and efforts to make research--specifically, terrorism studies--more transparent?
+
+Lower numbers correspond to less favourable feelings, higher numbers correspond to more favourable feelings."
+AT02_01;attitude_test: [Keine Beschreibung] 01;ORDINAL;SCALE;"In general, how do you feel about the open science movement and efforts to make research--specifically, terrorism studies--more transparent?
+
+By clicking on the purple marker you can place it in any position along the slider."
+RE02_01;reasons: It is increasingly a hiring and/or promotion requirement.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_02;reasons: It is a requirement for funding/grants I aim to apply for.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_03;reasons: It allows me to reach a larger academic audience.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_04;reasons: It makes it possible to have a larger impact.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_05;reasons: It seems like the right thing to do.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_06;reasons: It makes the research process more efficient.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_07;reasons: It facilitates collaboration.;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE02_08;reasons: Other;ORDINAL;SCALE;There are several reasons why researchers pursue (different) open science practices. Generally speaking, why are you or why would you pursue one or more open science activities (e.g., the activities that were mentioned in the previous questions).
+RE03_01;Do_other: Other reasons;TEXT;OPEN;
+CO01_01;concerns: [01];TEXT;OPEN;What concerns do you have about the open science movement in general or specific open science practices in particular? If you don't have any concerns yourself, what, do you think, may be a concern for other researchers in terrorism studies?
+CO02_01;limits: The amount of time it takes;ORDINAL;SCALE;What restricts your ability to engage in open science practices?
+CO02_02;limits: Financial costs;ORDINAL;SCALE;What restricts your ability to engage in open science practices?
+CO02_03;limits: Lack of knowledge/training;ORDINAL;SCALE;What restricts your ability to engage in open science practices?
+CO02_04;limits: Lack of discipline-specific best practices;ORDINAL;SCALE;What restricts your ability to engage in open science practices?
+CO02_05;limits: Lack of concrete incentives;ORDINAL;SCALE;What restricts your ability to engage in open science practices?
+CO02_06;limits: Other;ORDINAL;SCALE;What restricts your ability to engage in open science practices?
+CO03_01;Do_other: Other concerns;TEXT;OPEN;
+DE01;career level: Ausweichoption (negativ) oder Anzahl ausgewählter Optionen;NOMINAL;SYSTEM;What best describes your current position?
+DE01_01;career level: Undergraduate student;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_02;career level: Post-graduate student (including research Masters);DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_03;career level: PhD student;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_04;career level: Post-doc/Research Associate;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_05;career level: Lecturer/Assistant Professor;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_06;career level: Senior Lecturer/Associate Professor;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_07;career level: Reader;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_08;career level: Professor;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE01_09;career level: Other;DICHOTOMOUS;CHECKBOX;What best describes your current position?
+DE02_01;research experience: [Keine Beschreibung] 01;ORDINAL;SCALE;How would you describe your current research experience?
+DE03;publishing;NOMINAL;SELECTION;How many of your publications fall under the scope of terrorism studies?
+DE04_01;research experience_test: [Keine Beschreibung] 01;ORDINAL;SCALE;"How would you describe your current research experience?
+
+By clicking on the purple marker you can place it in any position along the slider."
+DE05_01;Do_other: If other, please specify;TEXT;OPEN;
+FI01_01;comments: [01];TEXT;OPEN;Do you have any questions or comments about this survey? Is there anything you would like to share about open science in terrorism studies that was not captured in the survey? Let us know here!
+ET01;consent: Ausweichoption (negativ) oder Anzahl ausgewählter Optionen;NOMINAL;SYSTEM;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_05;consent: I confirm that I am 18 years old or older.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_07;consent: I voluntarily agree to take part in this study.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_01;consent: I confirm that I have read and understood the Information Sheet for the above study. I have had an opportunity to consider the information and what will be expected of me. I have also had the opportunity to ask questions, which have been answered to my satisfaction.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_02;consent: I understand that my participation is voluntary and that I can stop the survey at any time without giving a reason.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_10;consent: I understand that once I submitted my answers, my responses can't be removed.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_09;consent: I understand that I remain fully anonymous, and that I won't be identifiable in any publications that report the results of this survey.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_03;consent: I understand that the data collected in this survey will be made publicly available. I know that no personal information is collected.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_04;consent: I understand that the results of this survey will be reported in academic publications or conference presentations.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_06;consent: I am aware of who I should contact if I wish to lodge a complaint.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+ET01_08;consent: I am happy for the data I provide to be archived securely at UCL for 10 years.;DICHOTOMOUS;CHECKBOX;"If you have any questions arising from the Information Sheet, please contact the researchers by email at s.schumann@ucl.ac.uk. If you want to participate in the study, please complete this consent form.
+
+By ticking each box below, I am consenting to the respective statement."
+TIME001;Verweildauer Seite 1;METRIC;SYSTEM;
+TIME002;Verweildauer Seite 2;METRIC;SYSTEM;
+TIME003;Verweildauer Seite 3;METRIC;SYSTEM;
+TIME004;Verweildauer Seite 4;METRIC;SYSTEM;
+TIME005;Verweildauer Seite 5;METRIC;SYSTEM;
+TIME006;Verweildauer Seite 6;METRIC;SYSTEM;
+TIME007;Verweildauer Seite 7;METRIC;SYSTEM;
+TIME008;Verweildauer Seite 8;METRIC;SYSTEM;
+TIME_SUM;Verweildauer gesamt (ohne Ausreißer);METRIC;SYSTEM;
+MAILSENT;Versandzeitpunkt der Einladungsmail (nur für nicht-anonyme Adressaten);TIME;SYSTEM;
+LASTDATA;Zeitpunkt als der Datensatz das letzte mal geändert wurde;TIME;SYSTEM;
+FINISHED;Wurde die Befragung abgeschlossen (letzte Seite erreicht)?;BOOL;SYSTEM;
+Q_VIEWER;Hat der Teilnehmer den Fragebogen nur angesehen, ohne die Pflichtfragen zu beantworten?;BOOL;SYSTEM;
+LASTPAGE;Seite, die der Teilnehmer zuletzt bearbeitet hat;METRIC;SYSTEM;
+MAXPAGE;Letzte Seite, die im Fragebogen bearbeitet wurde;METRIC;SYSTEM;
+MISSING;Anteil fehlender Antworten in Prozent;METRIC;SYSTEM;
+MISSREL;Anteil fehlender Antworten (gewichtet nach Relevanz);METRIC;SYSTEM;
+TIME_RSI;Maluspunkte für schnelles Ausfüllen;METRIC;SYSTEM;
+DEG_TIME;Maluspunkte für schnelles Ausfüllen;METRIC;SYSTEM;
